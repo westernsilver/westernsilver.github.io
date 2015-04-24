@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<meta name="description" content="profile page">
     <title>즐거움의 시작::Western-Silver!</title>
     <script src="./main.js"></script>
 	<style type="text/css">
 		* {margin:0px; padding:0px;}
 		#myphoto,#myinfo {text-align:center; width:960px; background-color:#aedfbb; border:1px solid #231032; margin:20px auto 0px auto; padding:20px;}
 		#myphoto>img{width:640px; height:640px; border-top:4px solid #eeefaa;border-left:4px solid #eeefaa;border-right:4px solid #ffdfcc;border-bottom:4px solid #ffdfcc;}
-		#myinfo{border-bottom:10px solid #ff0000;}
+		#myinfo{border-bottom:10px solid #ff0000; font-size:1.5em;}
+		#myinfo>ul{list-style: square; margin-left: 220px;}
+		#myinfo >ul>li> span.label{text-decoration:underline;}
+		#myinfo >ul>li> span.content{font-weight:bold;}
 	</style>
 </head>
 <body>
@@ -16,6 +21,12 @@
 <img alt="아이유 사진입니다." src="./images/iu.jpg" title="아이유~" />
 </div>
 <div id="myinfo">
+<ul>
+<li><span class="label">name : </span><span class="content">westernsilver</span></li>
+<li><span class="label">e-mail : </span><span class="content">nope</span></li>
+<li><span class="label">hobby : </span><span class="content">music</span></li>
+<li><span class="label">facebook : </span><span class="content"> <a href="http://facebook.com/westernsilver" target="_blank">nope</a></span></li>
+</ul>
 	아마도 우리의 개인정보...
 </div>
 </body>
